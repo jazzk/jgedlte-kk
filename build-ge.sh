@@ -13,7 +13,7 @@ RAMFS_TMP="/home/jazz/kernel/tmp_ge/ramdisk_ge"
 
 find -name '*.ko' -exec rm -rf {} \;
 
-make -j2 jf_defconfig VARIANT_DEFCONFIG=jf_tmo_defconfig SELINUX_DEFCONFIG=selinux_defconfig SELINUX_LOG_DEFCONFIG=selinux_log_defconfig || exit 1
+make -j2 jf_defconfig VARIANT_DEFCONFIG=jf_eur_defconfig SELINUX_DEFCONFIG=selinux_defconfig SELINUX_LOG_DEFCONFIG=selinux_log_defconfig || exit 1
 
 . $KERNELDIR/.config
 
