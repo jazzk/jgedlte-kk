@@ -3,7 +3,7 @@ export KERNELDIR=`readlink -f .`
 export RAMFS_SOURCE="/home/jazz/kernel/ramdisk_ge"
 export PARENT_DIR=`readlink -f ..`
 export USE_SEC_FIPS_MODE=true
-export CROSS_COMPILE=/home/jazz/prebuilts/arm-eabi-4.8/bin/arm-eabi-
+export CROSS_COMPILE=/home/jazz/prebuilts/arm-eabi-4.7/bin/arm-eabi-
 
 RAMFS_TMP="/home/jazz/kernel/tmp_ge/ramdisk_ge"
 
